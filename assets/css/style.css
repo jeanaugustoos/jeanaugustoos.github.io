@@ -1,0 +1,56 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3606155, 2018-07-06T16:54:23-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: UniNeueLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/uni-neue/light/
+ * Copyright: Copyright (c) 2017 by Fontfabric LLC. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3606155
+ *
+ * © 2018 MyFonts Inc
+*/
+
+@font-face {
+  font-family: 'UniNeueLight';
+  src: url('../webfonts/37068B_0_0.eot');
+  src: url('../webfonts/37068B_0_0.eot?#iefix') format('embedded-opentype'),
+       url('../webfonts/37068B_0_0.woff2') format('woff2'),
+       url('../webfonts/37068B_0_0.woff') format('woff'),
+       url('../webfonts/37068B_0_0.ttf') format('truetype');
+}
+
+body {
+  font-family: UniNeueLight;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 32pt;
+}
+
+figure.profile img{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+section.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
