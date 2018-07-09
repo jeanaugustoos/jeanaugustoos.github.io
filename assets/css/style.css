@@ -32,6 +32,15 @@ body {
   font-family: UniNeueLight;
 }
 
+header {
+  width: 100%;
+}
+
+header p {
+  text-align: center;
+  font-size: 10pt;
+}
+
 h1, h2 {
   margin: 0;
   padding: 0;
