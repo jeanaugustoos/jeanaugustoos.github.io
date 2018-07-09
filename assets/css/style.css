@@ -42,7 +42,7 @@ h1 {
   font-size: 32pt;
 }
 
-figure.profile img{
+figure.profile-photo img{
   border-radius: 50%;
   height: 250px;
   width: 250px;
@@ -53,4 +53,29 @@ section.container {
   align-items: center;
   justify-content: center;
   height: 90%;
+}
+
+@media (max-width: 600px) {
+  section.container {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 22pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+  }
+
+  p {
+    font-size: 12pt;
+  }
+
+  section.profile-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+  }
 }
