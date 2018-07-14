@@ -57,6 +57,10 @@ figure.profile-photo img{
   width: 250px;
 }
 
+figure.profile-photo img:hover {
+  opacity: 0.8;
+}
+
 section.container {
   display: flex;
   align-items: center;
